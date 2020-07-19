@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Script Tutorials" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>HTML5 Audio player with playlist | Script Tutorials</title>
+
+    <!-- add styles and scripts -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="example">
+
+        <div class="player">
+            <div class="pl"><p>open</p></div>
+            <div class="title"></div>
+            <div class="artist"></div>
+            <div class="cover"></div>
+            <div class="controls">
+              
+                    <div class="play">
+                        <div class="play-box">
+                            <i class="fa fa-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="pause">
+                        <div class="play-box">
+                            <i class="fa fa-pause"></i>
+                        </div>
+                    </div>
+                
+                
+                    <div class="rew"> 
+                        <div class="play-box">
+                            <i class="fa fa-fast-backward"></i>
+                        </div>
+                    </div>
+
+                    <div class="fwd"> 
+                        <div class="play-box">
+                            <i class="fa fa-fast-forward"></i> 
+                        </div>
+                    </div>
+            </div>
+            <div class="volume"><i class="material-icons">volume_up</i></div>
+            <div class="tracker"></div>
+        </div>
+        
+        <ul class="playlist hidden">
+            <li audiourl="БитУ.М. - Утекла....mp3" cover="БитУ.М..jpg" artist="">- БитУ.М. - Утекла...</li>
+            <p class="cl">closed</p>
+        </ul>
+
+    </div>
+</body>
+</html>
